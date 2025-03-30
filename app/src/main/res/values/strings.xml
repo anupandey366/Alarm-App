@@ -1,0 +1,91 @@
+<resources>
+
+    <!-- Week days array -->
+    <string-array name="week_days">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+
+    <!-- Plurals for minutes -->
+    <plurals name="minutes">
+        <item quantity="one">%d minute</item>
+        <item quantity="other">%d minutes</item>
+    </plurals>
+
+    <!-- App Name -->
+    <string name="app_name">Alarm App</string>
+
+    <!-- Common Strings -->
+    <string name="time">Time</string>
+    <string name="label">Label</string>
+    <string name="repeat">Repeat</string>
+    <string name="sound">Sound</string>
+    <string name="vibrate">Vibrate</string>
+    <string name="snooze">Snooze</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="enabled">Enabled</string>
+    <string name="disabled">Disabled</string>
+    <string name="minutes">minutes</string>
+    <string name="snooze_duration">Snooze Duration</string>
+    <string name="difficulty">Difficulty</string>
+    <string name="none">None</string>
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
+
+    <!-- Alarm List Screen -->
+    <string name="no_alarms">No alarms set</string>
+    <string name="add_alarm">Add Alarm</string>
+    <string name="alarm_list_title">My Alarms</string>
+
+    <!-- Alarm Detail Screen -->
+    <string name="new_alarm_title">New Alarm</string>
+    <string name="edit_alarm_title">Edit Alarm</string>
+    <string name="alarm_label_hint">Alarm name</string>
+    <string name="repeat_days_title">Repeat on</string>
+    <string name="snooze_duration_title">Snooze duration: %1$d min</string>
+    <string name="difficulty_title">Dismiss difficulty</string>
+    <string name="default_alarm_label">Alarm</string>
+
+    <!-- Alarm Trigger Screen -->
+    <string name="alarm_ringing">Alarm is ringing!</string>
+    <string name="shake_to_dismiss">Shake phone to dismiss</string>
+    <string name="math_challenge">Solve to dismiss: %1$d + %2$d = ?</string>
+    <string name="pattern_challenge">Draw pattern to dismiss</string>
+    <string name="time_to_wake_up">Time to wake up!</string>
+
+    <!-- Days of Week -->
+    <string name="sunday">Sunday</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+
+    <!-- Notification Strings -->
+    <string name="notification_title">Alarm</string>
+    <string name="notification_content">Time to wake up!</string>
+    <string name="notification_snooze">Snooze</string>
+    <string name="notification_dismiss">Dismiss</string>
+    <string name="notification_channel_description">Channel for alarm notifications</string>
+
+    <!-- Error Messages -->
+    <string name="error_invalid_time">Please set a valid time</string>
+    <string name="error_saving_alarm">Error saving alarm</string>
+
+    <!-- Accessibility -->
+    <string name="a11y_time_picker">Time picker</string>
+    <string name="a11y_alarm_switch">Toggle alarm</string>
+    <string name="a11y_snooze_button">Snooze alarm</string>
+    <string name="a11y_dismiss_button">Dismiss alarm</string>
+    <string name="select_time">Select Time\n</string>
+</resources>

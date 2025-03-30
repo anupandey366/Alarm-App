@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.AlarmSystem" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <!-- Navigation bar color. -->
+        <item name="android:navigationBarColor">@color/white</item>
+        <!-- Removes default splash screen. -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!--Primary Colors-->
+        <item name="colorPrimary">@color/green</item>
+        <item name="android:colorPrimary">@color/green</item>
+        <item name="colorOnPrimaryContainer">@color/green</item>
+        <item name="colorOnPrimary">@color/green</item>
+        <item name="android:textColorPrimary">@color/green</item>
+        <item name="colorOnSecondary">@color/green</item>
+        <item name="colorSecondary">@color/green</item>
+        <item name="android:colorSecondary" tools:targetApi="25">@color/green</item>
+        <item name="android:textColorSecondary">@color/green</item>
+
+        <item name="android:itemBackground">@color/white</item>
+        <!-- Set default fontFamily. -->
+        <item name="android:fontFamily">@font/rajdhani_regular</item>
+        <item name="fontFamily">@font/rajdhani_regular</item>
+
+        <!--Adjust screen scroll when keyboard shows-->
+        <item name="android:windowSoftInputMode">adjustResize</item>
+    </style>
+
+    <style name="Theme.AlarmSystem" parent="Base.Theme.AlarmSystem" />
+</resources>
